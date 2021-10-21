@@ -11,6 +11,4 @@ design:
   css_class: null
 ---
 
-<br>
-
 **Prasad Hariharan** has been writing about technology for close to 15 years.
