@@ -38,12 +38,12 @@ You can use a web app, **StackEdit**, to quickly extend the standard Markdown sy
 
 For example, you can render LaTeX mathematical expressions using **KaTeX:**
 
-![]()
+![An example Math equation](image1.png "An example Math equation")
 
 You can also render UML diagrams using Mermaid. For example, here is a sequence diagram:
 
-![A sequence diagram](image2.png)
+![A sequence diagram](image2.png "A sequence diagram")
 
 Finally, you can render a flow chart:
 
-![A flowchart]()
+![A flowchart](image3.png "A flowchart")
