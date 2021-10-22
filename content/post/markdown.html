@@ -1,0 +1,38 @@
+<link rel="stylesheet" type="text/css" href="typography.css" />
+<h1 id="use-markdown-for-documents-and-notes">Use Markdown for documents and notes</h1>
+<p>You may have heard of content management systems. These systems hold the content that you want to deliver in the form of blocks or pages or files or images. But after you’ve created the content, you need to think carefully about how that content should be delivered through different channels. That’s where content delivery comes into the picture.</p>
+<p>Two aspects have that have redefined the content delivery experience: formatting and style.</p>
+<h2 id="wysiwyg">WYSIWYG</h2>
+<p>Microsoft Word is one such application that provides a What You See Is What You Get (WYSIWYG) experience. You click buttons to format your content in different ways, and you get to see the results of that formatting instantly. Other content delivery systems rely on tags and stylesheets to customise the content delivery experience.</p>
+<h2 id="markdown">Markdown</h2>
+<p>In contrast, Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. If you use a chat application such as WhatsApp, then you might remember adding asterisk signs before and after text that you want to be formatted in BOLD font. Well, that’s markdown for you.</p>
+<h2 id="why-markdown">Why Markdown</h2>
+<p>The advantage of using Markdown is that you can use any text editor application to add markdown formatting elements to your content. This makes Markdown portable and operating system, application, and file format agnostic. You can use Markdown to create and deliver documents, presentations, websites, notes, and complete technical documentation.</p>
+<p>When you’ve created content using Markdown, you’ll need a Markdown processing application that parses the content with markdown elements and formats it to be delivered in HTML format. You can post-process this HTML to deliver your content in other formats, such as PDF.</p>
+<p>Unfortunately, even popular note taking applications such as OneNote and Evernote do not directly support Markdown. This means that you are pretty much locked into a specific application for your notes, and have to worry about exporting notes into a format that another note taking application can import.</p>
+<p>Having said that, some note taking applications do support Markdown. Notion, Joplin, and Cryptee, are some of the more well-known ones.</p>
+<p>What are your thoughts about Markdown? You can test out Markdown and let me know your thoughts.</p>
+<h2 id="markdown-extensions-using-stackedit">Markdown extensions using StackEdit</h2>
+<p>StackEdit extends the standard Markdown syntax by adding extra Markdown extensions, providing you with some nice features.</p>
+<p>ProTip: You can disable any Markdown extension in the File properties dialog.</p>
+<p>SmartyPants</p>
+<p>SmartyPants converts ASCII punctuation characters into “smart” typographic punctuation HTML entities. For example: ASCII HTML Single backticks ‘Isn’t this fun?’ ‘Isn’t this fun?’ Quotes “Isn’t this fun?” “Isn’t this fun?” Dashes – is en-dash, — is em-dash – is en-dash, — is em-dash KaTeX</p>
+<p>You can render LaTeX mathematical expressions using KaTeX:</p>
+<p>A Math Equation <img src="image1.png" alt="Math Equation" /></p>
+<p>The <em>Gamma function</em> satisfying <img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5CGamma%28n%29%20%3D%20%28n-1%29%21%5Cquad%5Cforall%20n%5Cin%5Cmathbb%20N" alt="\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N" title="\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N" class="math inline" /> is via the Euler integral</p>
+<p><img style="vertical-align:middle" src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%0A%5CGamma%28z%29%20%3D%20%5Cint_0%5E%5Cinfty%20t%5E%7Bz-1%7De%5E%7B-t%7Ddt%5C%2C.%0A" alt="
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+" title="
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+" class="math display" /></p>
+<p>You can find more information about LaTeX mathematical expressions here.</p>
+<p>UML diagrams</p>
+<p>You can render UML diagrams using Mermaid. For example, this will produce a sequence diagram:</p>
+<figure>
+<img src="image2.png" alt="A sequence diagram" /><figcaption aria-hidden="true">A sequence diagram</figcaption>
+</figure>
+<p>And you can also produce a flow chart:</p>
+<figure>
+<img src="image3.png" alt="A flowchart" /><figcaption aria-hidden="true">A flowchart</figcaption>
+</figure>
+<p><strong>Image and Para above credit to StackEdit</strong></p>
