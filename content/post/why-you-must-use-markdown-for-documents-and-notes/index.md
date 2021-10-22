@@ -47,3 +47,8 @@ You can also render UML diagrams using Mermaid. For example, here is a sequence 
 Finally, you can render a flow chart:
 
 ![A flowchart](image3.png "A flowchart")
+
+## BONUS TIP: You can embed YouTube videos using **Hugo**
+
+For example:
+{{< youtube w7Ft2ymGmfc >}}
